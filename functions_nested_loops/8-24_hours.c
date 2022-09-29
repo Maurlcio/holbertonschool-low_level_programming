@@ -6,29 +6,19 @@
 
 void jack_bauer(void)
 {
-int h1;
-int h2;
-int min1;
-int min2;
+int h;
+int min;
 
-for (h1 = '0'; h1 <= '2'; h1++)
+for (h = 0; h <= 23; h++)
 {
-for (h2 = '0'; h2 <= '3'; h2++)
+for (min = 0; min <= 59; min++)
 {
-for (min1 = '0'; min1 <= '5'; min1++)
-{
-for (min2 = '0'; min2 <= '9'; min2++)
-{
-_putchar(min2);
+_putchar(h / 10 + '0');
+_putchar(h % 10 + '0');
+_putchar(':');
+_putchar(min / 10 + '0');
+_putchar(min % 10 + '0');
 _putchar('\n');
 }
-_putchar(min1);
-_putchar('\n');
-}
-_putchar(h2);
-_putchar('\n');
-}
-_putchar(h1);
-_putchar('\n');
 }
 }
