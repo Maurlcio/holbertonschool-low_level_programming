@@ -11,7 +11,7 @@ int h2;
 int min1;
 int min2;
 
-for (h1 = '0'; h <= '2'; h1++)
+for (h1 = '0'; h1 <= '2'; h1++)
 {
 for (h2 = '0'; h2 <= '3'; h2++)
 {
