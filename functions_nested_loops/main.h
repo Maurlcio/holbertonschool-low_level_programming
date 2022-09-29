@@ -15,6 +15,4 @@
 #include <string.h>
 #include <time.h>
 
-int _putchar(char c)
-{
-}
+int _putchar(char c);
