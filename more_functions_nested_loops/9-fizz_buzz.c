@@ -7,29 +7,26 @@
 
 int main(void)
 {
-int num;
+int i;
 
-for (num = 1; num <= 100; num++)
+for (i = 1; i <= 100; i++)
 {
-if (num % 3 == 0 || num % 5 == 0)
+if (i % 3 == 0 || i % 5 == 0)
 {
-if (num % 3 == 0)
+if (i % 3 == 0)
 {
 printf("Fizz");
 }
-else if (num % 5 == 0)
+if (i % 5 == 0)
 {
 printf("Buzz");
 }
-}
-else
+} else
 {
-printf("%d", num);
+printf("%d", i);
 }
-if (num != 100)
-{
+if (i != 100)
 printf(" ");
-}
 }
 printf("\n");
 return (0);
