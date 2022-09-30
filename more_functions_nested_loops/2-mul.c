@@ -3,7 +3,7 @@
 /**
 *mul - multiplies
 *@a: mul1
-*@b; mul2
+*@b: mul2
 *Return: seriously though its just basic maths
 */
 
