@@ -19,14 +19,14 @@ else if (num % 5 == 0)
 {
 printf("Buzz");
 }
-}
 else if (num != 100)
 {
 printf(" ");
 }
 else
 {
-print("%d", num);
+printf("%d", num);
+}
 }
 printf("\n");
 return (0);
