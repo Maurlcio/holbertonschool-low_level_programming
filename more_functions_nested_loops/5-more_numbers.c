@@ -11,7 +11,7 @@ int num;
 
 for (times = '0'; times <= '9'; times++)
 {
-for (num = 0; num1 <= 9; num1++)
+for (num = 0; num <= 9; num++)
 {
 if (num > 9)
 {
