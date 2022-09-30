@@ -12,7 +12,7 @@ int space;
 
 if (n > 0)
 {
-for (slash = 0; slash < space; slash++)
+for (slash = 0; slash < n; slash++)
 {
 for (space = 0; space < slash; space++)
 {
