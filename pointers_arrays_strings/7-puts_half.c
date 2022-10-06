@@ -9,7 +9,7 @@
 void puts_half(char *str)
 {
 int half;
-int iensure;
+int iensure = 0;
 
 if (_strlen(str) % 2 != 0)
 {
