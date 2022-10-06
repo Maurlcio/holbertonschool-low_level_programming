@@ -1,5 +1,4 @@
 #include "main.h"
-#include <publib.h>
 
 /**
 *rev_string - reverses a string
@@ -8,5 +7,13 @@
 
 void rev_string(char *s)
 {
-strrev(s);
+int reverse;
+char string;
+
+for (reverse = 0; reverse < strlen(s) / 2; reverse++)
+{
+string = s[reverse];
+s[reverse] = s[strlen(s) - reverse - 1];
+s[strlen(s) - reverse - 1] = string;
+}
 }
