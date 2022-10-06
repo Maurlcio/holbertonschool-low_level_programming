@@ -1,19 +1,20 @@
 #include "main.h"
+#include "2-strlen.c"
 
 /**
 *rev_string - reverses a string
-*@s: pointer of type char
+*@s: char type pointer
 */
 
 void rev_string(char *s)
 {
-char reverse;
+int reverse;
 char string;
 
-for (reverse = 0; reverse < strlen(s) / 2; reverse++)
+for (reverse = 0; reverse < _strlen(s) / 2; reverse++)
 {
 string = s[reverse];
-s[reverse] = s[strlen(s) - reverse - 1];
-s[strlen(s) - reverse - 1] = string;
+s[reverse] = s[_strlen(s) - reverse - 1];
+s[_strlen(s) - reverse - 1] = string;
 }
 }
