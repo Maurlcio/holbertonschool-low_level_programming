@@ -7,7 +7,7 @@
 
 void rev_string(char *s)
 {
-int reverse;
+char reverse;
 char string;
 
 for (reverse = 0; reverse < strlen(s) / 2; reverse++)
