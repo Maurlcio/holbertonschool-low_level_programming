@@ -5,7 +5,7 @@
 *_strcpy - copies a string
 *@dest: destination
 *@src: pretty self-explanatory
-Return: YEAHHHH
+Return: dont tell me what is and isnt a good line motherfucker
 */
 
 char *_strcpy(char *dest, char *src)
