@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-*main - dont think i need to even comment on this but ah what the hell
+*main - dont think i need to even comment on this but ahh what the hell
 *Return: this was genuinely pretty fun compared to the other one lol
 */
 
