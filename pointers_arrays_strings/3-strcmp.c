@@ -9,10 +9,11 @@
 
 int _strcmp(char *s1, char *s2)
 {
-if (strlen(s1) == strlen(s2))
-return (0);
-else if (strlen(s1) < strlen(s2))
-return (strlen(s1) + strlen(s2));
-else
-return (strlen(s1) - strlen(s2));
+int num = 0;
+
+while (s1[num] - s2[num] == 0 && s1[num] != '\0')
+{
+num++;
+}
+return (s1[num] - s2[num]);
 }
