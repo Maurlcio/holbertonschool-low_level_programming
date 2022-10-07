@@ -3,7 +3,7 @@
 /**
 *_strstr - substrings within substrings
 *@haystack: HEY....... stack
-*@needle: leedle leedle 
+*@needle: leedle leedle
 *Return: hopefully not NULL!
 */
 
