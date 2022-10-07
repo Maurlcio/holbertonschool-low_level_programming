@@ -13,6 +13,6 @@ if (strlen(s1) == strlen(s2))
 return (0);
 else if (strlen(s1) < strlen(s2))
 return (-1);
-else if (strlen(s1) > strlen(s2))
+else
 return (1);
 }
