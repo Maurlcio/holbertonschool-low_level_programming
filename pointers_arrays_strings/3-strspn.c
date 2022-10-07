@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-*_strspn - gets the length of a prefix substring. im sure that makes sense to someone
+*_strspn - gets the length of a prefix substring. cool
 *@s: pointer char
 *@accept: Y/N
 *Return: prefix rights
