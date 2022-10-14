@@ -14,4 +14,5 @@ putchar(*s);
 else
 {
 putchar('\n');
+}
 }  
