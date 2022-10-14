@@ -28,5 +28,5 @@ int _sqrt_recursion(int n)
 if (n == 0)
 return (0);
 else
-return (sqrt_check(1, n));
+return (gimme_sqrt(1, n));
 }
