@@ -11,7 +11,7 @@ int gimme_sqrt(int r, int t)
 {
 if (r * r == t)
 return (r);
-else if (g * g > c)
+else if (r * r > t)
 return (-1);
 else
 return (gimme_sqrt(r + 1, t));
