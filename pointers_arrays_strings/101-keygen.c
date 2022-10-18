@@ -8,11 +8,10 @@
 int main(void)
 {
 int a;
-int b;
 int c;
 
 srand(time(NULL));
-for (b = 0, c = 2772; c > 122; b++)
+for (c = 2772; c > 122; )
 {
 a = (rand() % 125) + 1;
 printf("%c", a);
