@@ -15,7 +15,7 @@ for (a = 1; a < argc; a++)
 {
 for (b = 0; argv[a][b]; b++)
 {
-if (isdigit(argv[i][j]))
+if (isdigit(argv[a][b]))
 {
 printf("Error\n");
 return (1);
