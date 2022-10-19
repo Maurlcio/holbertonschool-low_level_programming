@@ -13,13 +13,13 @@ unsigned int ay;
 char *arr;
 
 arr = malloc(size * sizeof(char));
-if (size != NULL && arr != NULL)
+if (size != 0 && arr != NULL)
 {
 for (ay = 0; ay < size; ay++)
 {
-c = arr(ay);
+c = arr[ay];
 }
-return (a);
+return (arr);
 }
 else
 {
