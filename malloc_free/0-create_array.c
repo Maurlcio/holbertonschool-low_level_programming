@@ -17,7 +17,7 @@ if (size != 0 && arr != NULL)
 {
 for (ay = 0; ay < size; ay++)
 {
-c = arr[ay];
+arr[ay] = c;
 }
 return (arr);
 }
