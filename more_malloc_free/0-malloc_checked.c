@@ -8,7 +8,7 @@
 
 void *malloc_checked(unsigned int b)
 {
-  int *vessel;
+unsigned int *vessel;
 
 vessel = malloc(b);
 if (vessel == NULL)
