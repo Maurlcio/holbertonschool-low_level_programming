@@ -10,7 +10,7 @@ void *malloc_checked(unsigned int b)
 {
 char *vessel;
 
-vessel = malloc(vessel);
+vessel = malloc(b);
 if (vessel == NULL)
 {
 exit 98;
