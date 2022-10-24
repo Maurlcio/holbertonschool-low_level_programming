@@ -17,16 +17,14 @@ a = 0;
 else
 {
 for (a = 0; s1[a]; a++)
-{
-}
+;
 }
 if (s2 == NULL)
 b = 0;
 else
 {
 for (b = 0; s2[b]; b++)
-{
-}
+;
 }
 c = a + b + 1;
 str = malloc(c *sizeof(char));
@@ -37,10 +35,8 @@ else
 for (d = 0; d < a; d++)
 str[d] = s1[d];
 for (d = 0; d < b; d++)
-{
 str[a + d] = s2[d];
 str[a + d] = '\0';
-}
 return (str);
 }
 }
