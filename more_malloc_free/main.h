@@ -142,3 +142,5 @@ void free_grid(int **grid, int height);
 char **strtow(char *str);
 
 char *argstostr(int ac, char **av);
+
+void *malloc_checked(unsigned int b);
