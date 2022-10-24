@@ -13,7 +13,7 @@ char *vessel;
 vessel = malloc(b);
 if (vessel == NULL)
 {
-exit 98;
+exit (98);
 }
 return (vessel);
 }
