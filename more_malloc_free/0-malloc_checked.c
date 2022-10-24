@@ -8,12 +8,12 @@
 
 void *malloc_checked(unsigned int b)
 {
-unsigned int *vessel;
+unsigned int *p;
 
-vessel = malloc(b);
-if (vessel == NULL)
+p = malloc(b);
+if (p == NULL)
 {
 exit(98);
 }
-return (vessel);
+return (p);
 }
