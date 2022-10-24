@@ -8,10 +8,12 @@
 
 void *malloc_checked(unsigned int b)
 {
-  void *vessel = malloc(b);
+  int *vessel;
 
 vessel = malloc(b);
-if (!vessel)
+if (vessel == NULL)
+{
 exit(98);
+}
 return (vessel);
 }
