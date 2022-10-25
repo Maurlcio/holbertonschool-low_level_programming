@@ -15,10 +15,10 @@ if (min > max)
 return (NULL);
 
 b = max - min + 1;
-a = malloc(sizeof(*a) * n);
+a = malloc(sizeof(*a) * b);
 if (!a)
 return (NULL);
 while (b--)
 a[b] = max--;
 return (a);
-}}
+}
