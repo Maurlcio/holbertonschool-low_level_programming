@@ -35,7 +35,7 @@ c = a + n;
 
 wtvr = malloc(c + 1);
 
-else if (wtvr == NULL)
+if (wtvr == NULL)
 {
 return (NULL);
 }
@@ -47,6 +47,6 @@ else
 wtvr[d] = s2[d - a];
 }
 wtvr[d] = '\0';
-return (sout);
 }
+return (wtvr);
 }
