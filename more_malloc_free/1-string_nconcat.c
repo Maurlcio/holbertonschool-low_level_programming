@@ -14,13 +14,11 @@ char *wtvr;
 unsigned int a, b, c, d;
 
 if (s1 == NULL)
-s1 = 0;
+s1 = "";
 
-else if (s2 == NULL)
-s2 = 0;
+if (s2 == NULL)
+s2 = "";
 
-else
-{
 for (a = 0; s1[a] != '\0'; a++)
 {
 }
@@ -47,6 +45,5 @@ else
 wtvr[d] = s2[d - a];
 }
 wtvr[d] = '\0';
-}
 return (wtvr);
 }
