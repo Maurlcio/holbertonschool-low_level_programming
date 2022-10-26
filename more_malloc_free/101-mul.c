@@ -90,9 +90,9 @@ a = 1;
 if (a)
 putchar(result[i] + '0');
 }
+free(result);
 if (!a)
 putchar('0');
 putchar('\n');
-free (result);
 return (0);
 }
