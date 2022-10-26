@@ -66,10 +66,7 @@ len2 = _strlen(s2);
 len = len1 + len2 + 1;
 result = malloc(sizeof(int) * len);
 if (!result)
-{
 return (1);
-free(result);
-}
 for (i = 0; i <= len1 + len2; i++)
 result[i] = 0;
 for (len1 = len1 - 1; len1 >= 0; len1--)
@@ -96,6 +93,5 @@ putchar(result[i] + '0');
 if (!a)
 putchar('0');
 putchar('\n');
-free(result);
 return (0);
 }
