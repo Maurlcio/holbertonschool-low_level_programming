@@ -6,7 +6,7 @@
 *Return: yadda yadda
 */
 
-int _isdigit(char *s)
+int _isitdigit(char *s)
 {
 int i = 0;
 
@@ -59,7 +59,7 @@ char *s1, *s2;
 int len1, len2, len, i, carry, digit1, digit2, *result, a = 0;
 
 s1 = argv[1], s2 = argv[2];
-if (argc != 3 || !_isdigit(s1) || !_isdigit(s2))
+if (argc != 3 || !_isitdigit(s1) || !_isitdigit(s2))
 error();
 len1 = _strlen(s1);
 len2 = _strlen(s2);
