@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-*_isdigit - because i cant use the actual command lol
+*_isitdigit - because i cant use the actual command lol
 *@s: yknow the deal
 *Return: yadda yadda
 */
@@ -93,5 +93,6 @@ putchar(result[i] + '0');
 if (!a)
 putchar('0');
 putchar('\n');
+free (result);
 return (0);
 }
