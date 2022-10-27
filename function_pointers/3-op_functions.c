@@ -26,7 +26,7 @@ int op_sub(int a, int b)
 
 /**
  * op_mul - second grade math now lets gooo
- * a@a: a
+ * a@: a
  * @b: b
  * Return: multiplication
  */
