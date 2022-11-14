@@ -1,3 +1,6 @@
+#ifndef LISTS_H
+#define LISTS_H
+
 #include <unistd.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -156,3 +159,5 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
 int _printf(const char *format, ...);
 
 size_t print_list(const list_t *h);
+
+#endif
