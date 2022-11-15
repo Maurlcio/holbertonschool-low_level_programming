@@ -9,8 +9,12 @@
 
 list_t *add_node(list_t **head, const char *str)
 {
-	list_t *first = malloc(sizeof(list_t));
+	list_t *first;
 	size_t count = 0;
+
+	first = malloc(sizeof(list_t));
+	if (first == NULL)
+		return (NULL);
 
 	first->str = strdup(str);
 
@@ -20,9 +24,6 @@ list_t *add_node(list_t **head, const char *str)
 	first->len = count;
 	first->next = *head;
 	*head = first;
-
-	if (first == NULL)
-		return (NULL);
 
 	return (*head);
 }
