@@ -9,6 +9,9 @@ void free_listint2(listint_t **head)
 {
 	listint_t *aux = *head;
 
+	if (*head == NULL)
+		printf("Freed !");
+
 	while (aux != NULL)
 	{
 		listint_t *aux2 = aux;
