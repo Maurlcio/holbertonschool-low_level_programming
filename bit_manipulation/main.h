@@ -54,7 +54,6 @@ void print_numbers(void);
 
 void print_most_numbers(void);
 
-B
 void more_numbers(void);
 
 void print_line(int n);
@@ -77,7 +76,7 @@ void _puts(char *str);
 
 void print_rev(char *s);
 
-void rev_string(char *s);
+void rev_string(const char *s);
 
 void puts2(char *str);
 
