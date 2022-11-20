@@ -76,8 +76,6 @@ void _puts(char *str);
 
 void print_rev(char *s);
 
-void rev_string(const char *s);
-
 void puts2(char *str);
 
 void puts2(char *str);
@@ -219,5 +217,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n);
 int delete_nodeint_at_index(listint_t **head, unsigned int index);
 
 unsigned int binary_to_uint(const char *b);
+
+void print_binary(unsigned long int n);
 
 #endif
