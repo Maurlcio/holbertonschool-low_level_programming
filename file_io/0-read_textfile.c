@@ -13,9 +13,9 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	char *mal;
 
 	mal = malloc(letters);
-	if (mal == NULL)
+	if (!mal)
 		return (0);
-	if (filename == NULL)
+	if (!filename)
 		return (0);
 	fd = open(filename, O_RDWR);
 	if (fd == -1)
