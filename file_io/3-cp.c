@@ -18,11 +18,9 @@ int main(int argc, char *argv[])
 		exit(97);
 	}
 	fd1 = open(argv[1], O_RDONLY);
-	if (fd1 < 0 || !fd1)
 
 	fd2 = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
-	r = read(fd1, buf, BUFSIZ);
-	if (r > 0)
+	while ((r = read(fd1, buf, BUFSIZ)) > 0)
 	{
 		if (fd2 < 0 || write(fd2, buf, r) != r)
 		{
