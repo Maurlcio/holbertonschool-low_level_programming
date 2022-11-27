@@ -1,4 +1,4 @@
-#include "hash_tables."
+#include "hash_tables.h"
 
 /**
  * hash_table_print - print_hash_table
