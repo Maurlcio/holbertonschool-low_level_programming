@@ -8,7 +8,8 @@
  * @size: number of elements in array
  * @value: value to compare and locate
  *
- * Return: returns index of array where value matched on success. -1 on edge case
+ * Return: returns index of array where value matched on success. 
+ * -1 on edge case
  */
 
 int linear_search(int *array, size_t size, int value)

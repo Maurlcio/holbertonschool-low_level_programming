@@ -4,7 +4,7 @@
  * recursive_search - the actual legwork function for the binary search algo
  * the code is weird because i wanted to try out some var type conversion
  * stuff that i learned before moving on from C completely
- * 
+ *
  * @array: array
  * @size: size of the array
  * @value: value to search for
